@@ -1,1 +1,1 @@
-SECRET_KEY="ngvvH6Tx1RWcNeknP0fpVqRDbjHNxGRc"
+ORIGIN_DATA="data/movimientos.sqlite"
