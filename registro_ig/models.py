@@ -41,4 +41,10 @@ def insert(registro):
 
     conn.commit() antes de hacer el conn.close()
     """
+    conn = sqlite3.connect(ORIGIN_DATA)
+    cur = conn.cursor()
+
+    cur.execute("INSERT INTO movements (date, concept, quantity) values (?, ?, ?);", registro)
+    conn.commit()
+    conn.close()
 
