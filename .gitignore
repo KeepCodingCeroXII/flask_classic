@@ -4,3 +4,4 @@ data/
 venv/
 .vscode/
 config.py
+**.DS_Store
